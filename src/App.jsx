@@ -10,8 +10,8 @@ function App() {
   return (
     <div
       style={{
-        width: '1727px',                   // 背景幅
-        height: '1727px',                  // 背景高さ
+        width: '1000px',                   // 背景幅
+        height: '1000px',                  // 背景高さ
         margin: '0 auto',                  // 画面中央に配置
         backgroundImage: 'url(/images/bg.png)', // 背景画像
         backgroundSize: 'cover',
