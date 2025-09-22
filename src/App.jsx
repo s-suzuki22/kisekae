@@ -10,7 +10,10 @@ function App() {
       <h1 style={{ fontSize: '2rem', color: 'hotpink' }}>🌸 きせかえゲーム 🌸</h1>
 
       {/* キャラクター表示エリア */}
-      <div style={{ position: 'relative', width: '300px', margin: '0 auto' }}>
+       <div style={{ position: 'relative', width: '500px', margin: '0 auto' }}>
+  <img src="/images/base.png" alt="base" style={{ width: '100%', display: 'block', zIndex: 1 }} />
+  ...
+</div>
         {/* 素体 */}
         <img
           src="/images/base.png"
