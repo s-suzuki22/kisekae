@@ -23,3 +23,18 @@ function App() {
       </div>
 
       <div style={{ marginTop: '1rem' }}>
+        <h2>服</h2>
+        <button onClick={() => setDress('dress1.png')}>服1</button>
+        <button onClick={() => setDress('dress2.png')}>服2</button>
+      </div>
+
+      <div style={{ marginTop: '1rem' }}>
+        <h2>アクセサリ</h2>
+        <button onClick={() => setAccessory('accessory1.png')}>アクセ1</button>
+        <button onClick={() => setAccessory('accessory2.png')}>アクセ2</button>
+      </div>
+    </div>
+  )
+}
+
+export default App
