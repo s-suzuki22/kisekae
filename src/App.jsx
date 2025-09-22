@@ -50,35 +50,30 @@ function App() {
 
         {/* ボタンエリア（縦並び） */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', textAlign: 'left' }}>
-          
-          <div>
-            <h2>髪型</h2>
-            <button onClick={() => setHair('hair1.png')}>髪1</button>
-            <button onClick={() => setHair('hair2.png')}>髪2</button>
-          </div>
 
           <div>
             <h2>服</h2>
-            <button onClick={() => setDress('Milky_way_dress.png')}>服1</button>
-            <button onClick={() => setDress('dress2.png')}>服2</button>
+            <button onClick={() => setDress('Milky_way_dress.png')}>ワンピース</button>
+            <button onClick={() => setDress('dress2.png')}>長袖</button>
+            <button onClick={() => setDress('dress2.png')}>半袖</button>
           </div>
 
           <div>
             <h2>ボトムス</h2>
-            <button onClick={() => setBottom('celestial_bottoms.png')}>ボトムス1</button>
-            <button onClick={() => setBottom('bottom2.png')}>ボトムス2</button>
+            <button onClick={() => setBottom('celestial_bottoms.png')}>スカート</button>
+            <button onClick={() => setBottom('bottom2.png')}>パンツ</button>
           </div>
 
           <div>
             <h2>靴</h2>
-            <button onClick={() => setBoots('night_boots.png')}>ブーツ1</button>
-            <button onClick={() => setBoots('boots2.png')}>ブーツ2</button>
+            <button onClick={() => setBoots('night_boots.png')}>ブーツ</button>
+            <button onClick={() => setBoots('boots2.png')}>パンプス</button>
           </div>
 
           <div>
-            <h2>アクセサリ</h2>
-            <button onClick={() => setAccessory('accessory1.png')}>アクセ1</button>
-            <button onClick={() => setAccessory('accessory2.png')}>アクセ2</button>
+            <h2>ヘアーアクセサリ</h2>
+            <button onClick={() => setAccessory('accessory1.png')}>アクセサリー</button>
+            <button onClick={() => setAccessory('accessory2.png')}>帽子</button>
           </div>
 
         </div>
