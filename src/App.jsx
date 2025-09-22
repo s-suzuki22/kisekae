@@ -10,13 +10,7 @@ function App() {
   return (
     <div style={{ textAlign: 'center', padding: '1rem' }}>
       <h1>きせかえゲーム</h1>
-    <div
-      style={{
-        width: '1727px',      // 幅
-        height: '1727px',     // 高さ
-        backgroundImage: 'url(/images/bg.png)',  // 背景画像
-        backgroundPosition: 'center'             // 真ん中に配置
-      }}
+   
       {/* キャラクターとボタンを横並び */}
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', gap: '2rem' }}>
         
