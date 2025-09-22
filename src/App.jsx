@@ -71,7 +71,7 @@ function App() {
 
           <div>
             <h2>ブーツ</h2>
-            <button onClick={() => setBoots('boots1.png')}>ブーツ1</button>
+            <button onClick={() => setBoots('night_boots.png')}>ブーツ1</button>
             <button onClick={() => setBoots('boots2.png')}>ブーツ2</button>
           </div>
 
