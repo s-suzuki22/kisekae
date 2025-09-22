@@ -65,12 +65,12 @@ function App() {
 
           <div>
             <h2>ボトムス</h2>
-            <button onClick={() => setBottom('celestial_bottoms.png')}>ボトム1</button>
-            <button onClick={() => setBottom('bottom2.png')}>ボトム2</button>
+            <button onClick={() => setBottom('celestial_bottoms.png')}>ボトムス1</button>
+            <button onClick={() => setBottom('bottom2.png')}>ボトムス2</button>
           </div>
 
           <div>
-            <h2>ブーツ</h2>
+            <h2>靴</h2>
             <button onClick={() => setBoots('night_boots.png')}>ブーツ1</button>
             <button onClick={() => setBoots('boots2.png')}>ブーツ2</button>
           </div>
