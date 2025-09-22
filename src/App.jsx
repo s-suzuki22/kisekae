@@ -46,7 +46,7 @@ function App() {
 
           <div>
             <h2>服</h2>
-            <button onClick={() => setDress('dress1.png')}>服1</button>
+            <button onClick={() => setDress('Milky_way_dress.png')}>服1</button>
             <button onClick={() => setDress('dress2.png')}>服2</button>
           </div>
 
