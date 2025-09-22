@@ -10,14 +10,18 @@ function App() {
   return (
     <div
       style={{
-        width: '1727px',
-        height: '1727px',
-        backgroundImage: 'url(/images/bg.png)', // 背景画像
+        width: '1727px',                   // 背景幅
+        height: '1727px',                  // 背景高さ
+        margin: '0 auto',                  // 画面中央に配置
+        backgroundImage: 'url(/images/bg.png)',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         textAlign: 'center',
-        padding: '1rem'
+        padding: '1rem',
+        boxSizing: 'border-box',
       }}
     >
+      {/* タイトル */}
       <h1 style={{
         color: '#ffffff',
         textShadow: '2px 2px 4px #000000',
@@ -30,13 +34,13 @@ function App() {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', gap: '2rem' }}>
         
         {/* キャラクター表示 */}
-        <div style={{ position: 'relative', height: '500px', width: 'auto' }}>
-          <img src="/images/base.png" alt="base" style={{ height: '500px', display: 'block' }} />
-          <img src={`/images/${hair}`} alt="" style={{ position: 'absolute', top: 0, left: 0, height: '500px' }} />
-          <img src={`/images/${dress}`} alt="" style={{ position: 'absolute', top: 0, left: 0, height: '500px' }} />
-          <img src={`/images/${bottom}`} alt="" style={{ position: 'absolute', top: 0, left: 0, height: '500px' }} />
-          <img src={`/images/${boots}`} alt="" style={{ position: 'absolute', top: 0, left: 0, height: '500px' }} />
-          <img src={`/images/${accessory}`} alt="" style={{ position: 'absolute', top: 0, left: 0, height: '500px' }} />
+        <div style={{ position: 'relative', width: '300px', height: '500px', margin: '0 auto' }}>
+          <img src="/images/base.png" alt="base" style={{ width: '100%', height: '100%', display: 'block' }} />
+          <img src={`/images/${hair}`} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
+          <img src={`/images/${dress}`} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
+          <img src={`/images/${bottom}`} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
+          <img src={`/images/${boots}`} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
+          <img src={`/images/${accessory}`} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
         </div>
 
         {/* ボタンエリア */}
@@ -73,7 +77,7 @@ function App() {
   )
 }
 
-// ボタンの見た目
+// ボタン共通スタイル
 const buttonStyle = {
   padding: '0.5rem 1rem',
   fontSize: '1rem',
@@ -86,4 +90,3 @@ const buttonStyle = {
 }
 
 export default App
-
