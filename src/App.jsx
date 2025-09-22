@@ -10,24 +10,26 @@ function App() {
   return (
     <div
       style={{
-        width: '1727px',                   // 背景幅
-        height: '1727px',                  // 背景高さ
+        width: '1000px',                   // 背景幅
+        height: '1000px',                  // 背景高さ
         margin: '0 auto',                  // 画面中央に配置
-        backgroundImage: 'url(/images/bg.png)',
+        backgroundImage: 'url(/images/bg.png)', // 背景画像
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         textAlign: 'center',
         padding: '1rem',
-        boxSizing: 'border-box',
+        boxSizing: 'border-box'
       }}
     >
       {/* タイトル */}
-      <h1 style={{
-        color: '#ffffff',
-        textShadow: '2px 2px 4px #000000',
-        fontSize: '3rem',
-        marginBottom: '2rem'
-      }}>
+      <h1
+        style={{
+          color: '#ffffff',
+          textShadow: '2px 2px 4px #000000',
+          fontSize: '3rem',
+          marginBottom: '2rem'
+        }}
+      >
         きせかえゲーム
       </h1>
 
