@@ -2,8 +2,10 @@ import { useState } from 'react'
 
 function App() {
   const [hair, setHair] = useState('hair1.png')
-  const [dress, setDress] = useState('dress1.png')
+  const [dress, setDress] = useState('Milky_way_dress.png')
   const [accessory, setAccessory] = useState('accessory1.png')
+  const [bottom, setBottom] = useState('bottom1.png')   // ボトムス追加
+  const [boots, setBoots] = useState('boots1.png')     // ブーツ追加
 
   return (
     <div style={{ textAlign: 'center', padding: '1rem' }}>
@@ -30,6 +32,16 @@ function App() {
             style={{ position: 'absolute', top: 0, left: 0, height: '500px' }}
           />
           <img
+            src={`/images/${bottom}`}
+            alt=""
+            style={{ position: 'absolute', top: 0, left: 0, height: '500px' }}
+          />
+          <img
+            src={`/images/${boots}`}
+            alt=""
+            style={{ position: 'absolute', top: 0, left: 0, height: '500px' }}
+          />
+          <img
             src={`/images/${accessory}`}
             alt=""
             style={{ position: 'absolute', top: 0, left: 0, height: '500px' }}
@@ -38,6 +50,7 @@ function App() {
 
         {/* ボタンエリア（縦並び） */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', textAlign: 'left' }}>
+          
           <div>
             <h2>髪型</h2>
             <button onClick={() => setHair('hair1.png')}>髪1</button>
@@ -51,10 +64,23 @@ function App() {
           </div>
 
           <div>
+            <h2>ボトムス</h2>
+            <button onClick={() => setBottom('bottom1.png')}>ボトム1</button>
+            <button onClick={() => setBottom('bottom2.png')}>ボトム2</button>
+          </div>
+
+          <div>
+            <h2>ブーツ</h2>
+            <button onClick={() => setBoots('boots1.png')}>ブーツ1</button>
+            <button onClick={() => setBoots('boots2.png')}>ブーツ2</button>
+          </div>
+
+          <div>
             <h2>アクセサリ</h2>
             <button onClick={() => setAccessory('accessory1.png')}>アクセ1</button>
             <button onClick={() => setAccessory('accessory2.png')}>アクセ2</button>
           </div>
+
         </div>
       </div>
     </div>
