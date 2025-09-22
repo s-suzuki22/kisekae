@@ -36,7 +36,7 @@ function App() {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', gap: '2rem' }}>
         
         {/* キャラクター表示 */}
-        <div style={{ position: 'relative', width: '100px', height: '100px', margin: '0 auto' }}>
+        <div style={{ position: 'relative', width: '800px', height: '800px', margin: '0 auto' }}>
           <img src="/images/base.png" alt="base" style={{ width: '100%', height: '100%', display: 'block' }} />
           <img src={`/images/${hair}`} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
           <img src={`/images/${dress}`} alt="" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
