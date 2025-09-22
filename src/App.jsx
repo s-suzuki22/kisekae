@@ -65,7 +65,7 @@ function App() {
 
           <div>
             <h2>ボトムス</h2>
-            <button onClick={() => setBottom('bottom1.png')}>ボトム1</button>
+            <button onClick={() => setBottom('celestial_bottoms.png')}>ボトム1</button>
             <button onClick={() => setBottom('bottom2.png')}>ボトム2</button>
           </div>
 
