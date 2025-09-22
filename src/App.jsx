@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', padding: '1rem' }}>
-      <h1>ニクスちゃん着せ替えゲーム</h1>
+      <h1>きせかえゲーム</h1>
 
       <div style={{ position: 'relative', width: '200px', margin: '0 auto' }}>
         <img src="/images/base.png" alt="base" style={{ width: '100%' }} />
